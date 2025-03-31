@@ -1437,26 +1437,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dae4dfa8aa19744896a607347b043b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: 63b63e9093f32014daf26922100dd220, type: 2}
   patrolSpeed: 2
   chaseSpeed: 3.5
   retreatSpeed: 2.5
   detectionRadius: 2.56
-  detectionAngle: 90
+  viewAngle: 90
+  viewResolution: 30
   obstacleMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   attackRadius: 1.37
   attackCooldown: 1.5
   maxHealth: 100
   retreatThreshold: 30
-  detectionRangeColor: {r: 1, g: 0, b: 0, a: 0.3}
-  attackRangeColor: {r: 1, g: 0.5, b: 0, a: 0.4}
-  showAttackRadius: 1
-  fovUpdateRate: 0.1
-  sortingLayerName: Default
-  fovSortingOrder: 2
-  attackRadiusSortingOrder: 0
   patrolPoints:
   - {fileID: 1481826672}
   - {fileID: 2056601529}
