@@ -7,6 +7,8 @@ TagManager:
   - Platform
   - Enemy
   - pickup
+  - Bullet
+  - Obstacle
   layers:
   - Default
   - TransparentFX

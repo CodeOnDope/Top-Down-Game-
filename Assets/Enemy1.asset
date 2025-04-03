@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: Enemy1
   m_EditorClassIdentifier: 
   enemyName: Enemy1
-  speed: 1
-  health: 0
-  enemySprite: {fileID: -7527145504033472756, guid: b319dab52527acc43ba16c568a021d9a, type: 3}
+  enemySprite: {fileID: -6158701302202823355, guid: e5661d7b9f9a07b489a38eaa9375ab85, type: 3}
+  speed: 2
+  maxHealth: 50
+  detectionRadius: 3
+  attackRadius: 2
+  bulletPrefab: {fileID: 3046012073336438557, guid: 2b7863450ff0c40408bc5ec673f5814c, type: 3}
+  bulletSpeed: 5
+  attackCooldown: 1.5
+  pickupToDrop: {fileID: 11400000, guid: 2fb256c8c7aafad42968eb25e688ab9b, type: 2}
+  dropChance: 0.5

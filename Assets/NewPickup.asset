@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6aac6396bd6eef419bf345aa9fc9d3e, type: 3}
-  m_Name: Boss
+  m_Script: {fileID: 11500000, guid: 33981a3ff3c27de4e8be81291b79c77c, type: 3}
+  m_Name: NewPickup
   m_EditorClassIdentifier: 
-  enemyName: Boss
-  speed: 3
-  health: 0
-  enemySprite: {fileID: -8460268626561922479, guid: a0d3d39b074b62a4699eb56f2962d156, type: 3}
+  pickupName: Coin
+  pickupSprite: {fileID: -5384307256382834667, guid: a02eb9753be539642815b031103bef89, type: 3}
+  type: 0
+  healthRestoreAmount: 50
+  ammoAmount: 0
+  powerUpDuration: 0
